@@ -24,7 +24,7 @@ export const main = async () => {
       '1',      // sold asset id
       '2',      // bought asset id
       '100',    // amount to sell
-      '0'       // min amount out
+      // '0'       // min amount out - not yet required in production node as of 7.2.2021
     ),
     alice,
     nonce
